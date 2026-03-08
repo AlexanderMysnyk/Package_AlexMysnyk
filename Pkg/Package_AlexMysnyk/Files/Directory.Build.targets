@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/Package_AlexMysnyk/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/Package_AlexMysnyk/Data/**" />
+		<Compile Remove="$(PkgPath)/Package_AlexMysnyk/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/Package_AlexMysnyk/Schemas\**" />
+		<Compile Remove="$(PkgPath)/Package_AlexMysnyk/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Package_AlexMysnyk/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Package_AlexMysnyk/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Package_AlexMysnyk/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Package_AlexMysnyk/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Package_AlexMysnyk/Resources/**" />
+		<None Remove="$(PkgPath)/Package_AlexMysnyk/Assemblies/**" />
+		<None Remove="$(PkgPath)/Package_AlexMysnyk/Data/**" />
+		<None Remove="$(PkgPath)/Package_AlexMysnyk/SqlScripts/**" />
+		<None Remove="$(PkgPath)/Package_AlexMysnyk/Schemas/**" />
+		<None Remove="$(PkgPath)/Package_AlexMysnyk/Resources/**" />
+  </ItemGroup>
+</Project>
