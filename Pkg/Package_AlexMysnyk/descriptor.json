@@ -3,7 +3,7 @@
     "UId": "8ccbf300-c837-53b3-823c-e03588bd2a65",
     "Name": "Package_AlexMysnyk",
     "Type": 1,
-    "ModifiedOnUtc": "\/Date(1772963361000)\/",
+    "ModifiedOnUtc": "\/Date(1772978909000)\/",
     "Maintainer": "Customer",
     "ProjectPath": "Files/Package_AlexMysnyk.csproj",
     "DependsOn": [
@@ -13,9 +13,24 @@
         "Name": "CrtBase"
       },
       {
+        "UId": "29996b0e-2b19-27a8-dab4-67fbc00db573",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtProcessDesigner"
+      },
+      {
         "UId": "422cc048-65aa-8f90-e8ed-7fa6d5ab06b1",
         "PackageVersion": "7.8.0",
         "Name": "CrtNUI"
+      },
+      {
+        "UId": "a17d52e6-97ab-6f7f-17aa-f0e197e488ea",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtUIv2"
+      },
+      {
+        "UId": "a7d9c356-450c-46d7-bc85-72dca4e280ba",
+        "PackageVersion": "7.8.0",
+        "Name": "NUI"
       }
     ]
   }

@@ -1,12 +1,87 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|g:\\work\\creatio_dev\\terrasoft.webapp\\terrasoft.configuration\\pkg\\package_alexmysnyk\\files\\package_alexmysnyk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|solutionrelative:package_alexmysnyk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|g:\\work\\creatio_dev\\terrasoft.webapp\\terrasoft.configuration\\pkg\\package_alexmysnyk\\files\\files\\cs\\sevices\\realestatepriceaggregator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|solutionrelative:files\\cs\\sevices\\realestatepriceaggregator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|g:\\work\\creatio_dev\\terrasoft.webapp\\terrasoft.configuration\\pkg\\package_alexmysnyk\\files\\package_alexmysnyk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|solutionrelative:package_alexmysnyk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|g:\\work\\creatio_dev\\terrasoft.webapp\\terrasoft.configuration\\pkg\\package_alexmysnyk\\files\\files\\cs\\webservices\\webrealestatepriceaggregator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|solutionrelative:files\\cs\\webservices\\webrealestatepriceaggregator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Package_AlexMysnyk",
+              "DocumentMoniker": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\Package_AlexMysnyk.csproj",
+              "RelativeDocumentMoniker": "Package_AlexMysnyk.csproj",
+              "ToolTip": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\Package_AlexMysnyk.csproj",
+              "RelativeToolTip": "Package_AlexMysnyk.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-08T23:37:09.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Package_AlexMysnyk",
+              "DocumentMoniker": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\Package_AlexMysnyk.csproj",
+              "RelativeDocumentMoniker": "Package_AlexMysnyk.csproj",
+              "ToolTip": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\Package_AlexMysnyk.csproj",
+              "RelativeToolTip": "Package_AlexMysnyk.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-08T23:37:04.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RealEstatePriceAggregator.cs",
+              "DocumentMoniker": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\Files\\cs\\Sevices\\RealEstatePriceAggregator.cs",
+              "RelativeDocumentMoniker": "Files\\cs\\Sevices\\RealEstatePriceAggregator.cs",
+              "ToolTip": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\Files\\cs\\Sevices\\RealEstatePriceAggregator.cs",
+              "RelativeToolTip": "Files\\cs\\Sevices\\RealEstatePriceAggregator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T22:26:21.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebRealEstatePriceAggregator.cs",
+              "DocumentMoniker": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\Files\\cs\\WebServices\\WebRealEstatePriceAggregator.cs",
+              "RelativeDocumentMoniker": "Files\\cs\\WebServices\\WebRealEstatePriceAggregator.cs",
+              "ToolTip": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\Files\\cs\\WebServices\\WebRealEstatePriceAggregator.cs",
+              "RelativeToolTip": "Files\\cs\\WebServices\\WebRealEstatePriceAggregator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T22:24:02.388Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

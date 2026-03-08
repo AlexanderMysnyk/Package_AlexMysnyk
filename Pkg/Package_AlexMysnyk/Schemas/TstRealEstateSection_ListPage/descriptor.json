@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c5e8a565-dfe0-42e7-a704-5b12cada9345",
+    "Name": "TstRealEstateSection_ListPage",
+    "ModifiedOnUtc": "\/Date(1773012665000)\/",
+    "Parent": {
+      "UId": "3f1f3f38-a0a4-4549-b895-249fb08f554a",
+      "Name": "ListFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Real Estate list page"
+  }
+}

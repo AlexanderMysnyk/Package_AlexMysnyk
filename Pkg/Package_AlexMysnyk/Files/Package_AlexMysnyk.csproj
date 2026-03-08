@@ -256,12 +256,10 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References">
-	  <Folder Include="Files\cs\EntitiEventListeners\" />
-	  <Folder Include="Files\cs\Sevices\" />
-	  <Folder Include="Files\cs\WebServices\" />
+		<Folder Include="Files\cs\EntitiEventListeners\" />
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\Common_AlexMysnyk\Common_AlexMysnyk.csproj" />
+		<ProjectReference Include="..\Common_AlexMysnyk\Common_AlexMysnyk.csproj" />
 	</ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
 		<Message Importance="High" Text="*********** Project [$(MSBuildProjectFile)] TargetFramework [$(TargetFramework)] CoreTargetFramework [$(CoreTargetFramework)]" />
@@ -277,8 +275,5 @@
 		<Message Importance="High" Text="*********** RelativePkgFolderPath [$([System.IO.Path]::GetFullPath('$(RelativePkgFolderPath)'))]" />
 		<Message Importance="High" Text="*********** StandalonePackageAssemblyPath [$([System.IO.Path]::GetFullPath('$(StandalonePackageAssemblyPath)'))]" />
 		<Message Importance="High" Text="*********** OutputPath [$([System.IO.Path]::GetFullPath('$(OutputPath)'))]" />
-	</Target>
-	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-	  <Exec Command="clio restart -e &quot;Creatio-dev&quot;" />
 	</Target>
 </Project>

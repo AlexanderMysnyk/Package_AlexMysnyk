@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "86096dcd-cdd9-43a0-af20-80c8e99a774c",
+    "Name": "TstRealEstate",
+    "ModifiedOnUtc": "\/Date(1772993683000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Real estate",
+    "DependsOn": []
+  }
+}

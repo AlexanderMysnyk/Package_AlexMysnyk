@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Real estate" />
+			<Item Name="Columns.TstArea.Caption" Value="Area" />
+			<Item Name="Columns.TstComment.Caption" Value="Comment" />
+			<Item Name="Columns.TstCommission.Caption" Value="Commission" />
+			<Item Name="Columns.TstCostUSD.Caption" Value="Cost USD" />
+			<Item Name="Columns.TstName.Caption" Value="Name" />
+			<Item Name="Columns.TstOfferType.Caption" Value="Offer type" />
+			<Item Name="Columns.TstType.Caption" Value="Type" />
+		</Items>
+	</Group>
+</Resources>
