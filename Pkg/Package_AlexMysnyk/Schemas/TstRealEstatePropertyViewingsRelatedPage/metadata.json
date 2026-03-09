@@ -1,0 +1,31 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "5dc5f28d-6625-4cba-bdd8-1c13cd806b29",
+      "A2": "TstRealEstatePropertyViewingsRelatedPage",
+      "A5": "a5531c33-3103-4672-a28d-b54c0f6da80e",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "8ccbf300-c837-53b3-823c-e03588bd2a65",
+      "B8": "8.0.9.1582",
+      "AD1": "3dd0dc67-1b48-4294-aa4e-62aec88e7644",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+  "Pages": [
+    {
+      "UId": "47ca503f-1700-6628-fe52-221d5fe5eef2",
+      "PageSchemaUId": "72742da9-e57d-464f-8e93-fd950e291d03",
+      "IsDefault": true,
+      "IsSspDefault": false,
+      "Actions": null,
+      "Role": "a29a3ba5-4b0d-de11-9a51-005056c00008"
+    }
+  ]
+}
+    }
+  }
+}

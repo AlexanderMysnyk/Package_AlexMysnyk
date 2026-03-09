@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConnectedObjectColumnUId.Caption" Value="UId колонки связанного объекта" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConnectedObjectId.Caption" Value="Id связанного экземпляра объекта" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.CreatedObjectFileIds.Caption" Value="Id созданных файлов" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.IsSeparateReports.Caption" Value="Создавать отдельный отчет для каждой записи" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportFiles.Caption" Value="Коллекция отчетов" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportFiles.File.Caption" Value="Файл" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportName.Caption" Value="Название файла" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportNameDataSourceColumnUId.Caption" Value="Id колонки из выборки для названия файла" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ResultActionType.Caption" Value="Тип действия с отчетами" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.TargetDataEntitySchemaUId.Caption" Value="Целевой объект данных" />
+			<Item Name="Caption" Value="Generate report for real estate" />
+		</Items>
+	</Group>
+</Resources>

@@ -16,6 +16,18 @@ define("TstRealEstateSection_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common
 			},
 			{
 				"operation": "merge",
+				"name": "CardToggleTabPanel",
+				"values": {
+					"styleType": "default",
+					"bodyBackgroundColor": "primary-contrast-500",
+					"selectedTabTitleColor": "auto",
+					"tabTitleColor": "auto",
+					"underlineSelectedTabColor": "auto",
+					"headerBackgroundColor": "auto"
+				}
+			},
+			{
+				"operation": "merge",
 				"name": "Feed",
 				"values": {
 					"dataSourceName": "PDS",
@@ -26,6 +38,7 @@ define("TstRealEstateSection_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common
 				"operation": "merge",
 				"name": "AttachmentList",
 				"values": {
+					"recordColumnName": "TstRealEstateId",
 					"columns": [
 						{
 							"id": "198e7afb-f21d-4772-a550-604e47a15abf",
@@ -36,6 +49,31 @@ define("TstRealEstateSection_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common
 						}
 					]
 				}
+			},
+			{
+				"operation": "insert",
+				"name": "Button_0f48k13",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_0f48k13_caption)#",
+					"color": "primary",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "only-text",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "TstGetReportForRealEstate",
+							"processRunType": "ForTheSelectedPage",
+							"recordIdProcessParameterName": "RecordId"
+						}
+					},
+					"clickMode": "default"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -211,6 +249,71 @@ define("TstRealEstateSection_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "Button_AddPropertyViewings",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_qg2ucyw_caption)#",
+					"color": "accent",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"clicked": {
+						"request": "tst.AddPropertyViewingsRequest"
+					},
+					"clickMode": "default",
+					"icon": "add-button-icon"
+				},
+				"parentName": "GeneralInfoTab",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_hhoo1o1",
+				"values": {
+					"type": "crt.DataGrid",
+					"selectedRows": "$DataGrid_hhoo1o1_SelectedRows",
+					"_filterOptions": {
+						"expose": [],
+						"from": "DataGrid_hhoo1o1_SelectedRows"
+					},
+					"visible": true,
+					"fitContent": true,
+					"items": "$DataGrid_hhoo1o1",
+					"primaryColumnName": "DataGrid_hhoo1o1DS_Id",
+					"columns": [
+						{
+							"id": "4ab1feab-5cf1-7eaf-7257-73cfada7887e",
+							"code": "DataGrid_hhoo1o1DS_TstPotentialClient",
+							"path": "TstPotentialClient",
+							"caption": "#ResourceString(DataGrid_hhoo1o1DS_TstPotentialClient)#",
+							"dataValueType": 10,
+							"referenceSchemaName": "Contact"
+						},
+						{
+							"id": "e812279d-830b-bc96-63f0-adbae9cee3ed",
+							"code": "DataGrid_hhoo1o1DS_TstResponsible",
+							"path": "TstResponsible",
+							"caption": "#ResourceString(DataGrid_hhoo1o1DS_TstResponsible)#",
+							"dataValueType": 10,
+							"referenceSchemaName": "Contact"
+						},
+						{
+							"id": "2b436f80-83d5-f1d2-0336-f3e6c34186ad",
+							"code": "DataGrid_hhoo1o1DS_TstComment",
+							"caption": "#ResourceString(DataGrid_hhoo1o1DS_TstComment)#",
+							"dataValueType": 43,
+							"width": 562
+						}
+					]
+				},
+				"parentName": "GeneralInfoTab",
+				"propertyName": "items",
+				"index": 2
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfig: /**SCHEMA_VIEW_MODEL_CONFIG*/{
@@ -242,6 +345,11 @@ define("TstRealEstateSection_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common
 				"LookupAttribute_4nbphnu": {
 					"modelConfig": {
 						"path": "PDS.TstOfferType"
+					}
+				},
+				"CreatedBy": {
+					"modelConfig": {
+						"path": "PDS.CreatedBy"
 					}
 				},
 				"NumberAttribute_dprn0i2": {
@@ -284,20 +392,84 @@ define("TstRealEstateSection_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common
 					"modelConfig": {
 						"path": "PDS.TstCommission"
 					}
+				},
+				"DataGrid_hhoo1o1": {
+					"isCollection": true,
+					"modelConfig": {
+						"path": "DataGrid_hhoo1o1DS",
+						"sortingConfig": {
+							"default": []
+						}
+					},
+					"viewModelConfig": {
+						"attributes": {
+							"DataGrid_hhoo1o1DS_TstPotentialClient": {
+								"modelConfig": {
+									"path": "DataGrid_hhoo1o1DS.TstPotentialClient"
+								}
+							},
+							"DataGrid_hhoo1o1DS_TstResponsible": {
+								"modelConfig": {
+									"path": "DataGrid_hhoo1o1DS.TstResponsible"
+								}
+							},
+							"DataGrid_hhoo1o1DS_TstComment": {
+								"modelConfig": {
+									"path": "DataGrid_hhoo1o1DS.TstComment"
+								}
+							},
+							"DataGrid_hhoo1o1DS_Id": {
+								"modelConfig": {
+									"path": "DataGrid_hhoo1o1DS.Id"
+								}
+							}
+						}
+					}
 				}
 			}
 		}/**SCHEMA_VIEW_MODEL_CONFIG*/,
 		modelConfig: /**SCHEMA_MODEL_CONFIG*/{
 			"dataSources": {
+				"AttachmentListDS": {
+					"config": {
+						"entitySchemaName": "TstRealEstateFile"
+					}
+				},
 				"PDS": {
 					"type": "crt.EntityDataSource",
 					"config": {
 						"entitySchemaName": "TstRealEstate"
 					},
 					"scope": "page"
+				},
+				"DataGrid_hhoo1o1DS": {
+					"type": "crt.EntityDataSource",
+					"scope": "viewElement",
+					"config": {
+						"entitySchemaName": "TstRealEstatePropertyViewings",
+						"attributes": {
+							"TstPotentialClient": {
+								"path": "TstPotentialClient"
+							},
+							"TstResponsible": {
+								"path": "TstResponsible"
+							},
+							"TstComment": {
+								"path": "TstComment"
+							}
+						}
+					}
 				}
 			},
-			"primaryDataSourceName": "PDS"
+			"primaryDataSourceName": "PDS",
+			"dependencies": {
+				"DataGrid_hhoo1o1DS": [
+					{
+						"attributePath": "TstRealEstate",
+						"relationPath": "PDS.Id"
+					}
+				]
+			}
 		}/**SCHEMA_MODEL_CONFIG*/,
 		handlers: /**SCHEMA_HANDLERS*/[
 			{
@@ -306,6 +478,7 @@ define("TstRealEstateSection_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common
 					await next?.handle(request);
 
 					await this.initSysSettings(request);
+					await this.initHandleMessage(request);
 
 					await request.$context.executeRequest({
 						type: "tst.SetRequiredCommentRequest",
@@ -318,7 +491,39 @@ define("TstRealEstateSection_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common
 					})
 				},
 
-				initSysSettings: async (request, next) => {
+				initHandleMessage: async (request) => {
+					const messageHandler = async (channel, message) => {
+						if (message && message.Header.Sender === "ReloadPropertyViewingsListMessage") {
+							const recordId = await request.$context.Id;
+							const data = JSON.parse(message.Body);
+							
+							if (!data.IsSuccess) {
+								await request.$context.executeRequest({
+									type: "crt.NotificationRequest",
+									message: data.ErrorMessage,
+									$context: request.$context,
+								});
+							}
+
+							if (recordId === data.RealEstateId) {
+								await request.$context.executeRequest({
+									type: "crt.LoadDataRequest",
+									$context: request.$context,
+									config: {
+										loadType: "reload",
+										useLastLoadParameters: true
+									},
+									dataSourceName: "DataGrid_hhoo1o1DS"
+								});
+							};
+						}
+					};
+
+					request.$context.SocketHandler = messageHandler;
+					Terrasoft.ServerChannel.on(Terrasoft.EventName.ON_MESSAGE, messageHandler, request.$context);
+				},
+
+				initSysSettings: async (request) => {
 					const sysSettingsService = new sdk.SysSettingsService();
 
 					const [salePercent, rentPercent, costForRequiredComment] = await Promise.all([
@@ -330,6 +535,16 @@ define("TstRealEstateSection_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common
 					request.$context.TstSalePercent = salePercent ? salePercent.value : 0;
 					request.$context.TstRentPercent = rentPercent ? rentPercent.value : 0;
 					request.$context.TstCostForRequiredComment = costForRequiredComment ? costForRequiredComment.value : 0;
+				}
+			},
+			{
+				request: "crt.HandleViewModelDestroyRequest",
+				handler: async (request, next) => {
+					const handler = request.$context.SocketHandler;
+					if (handler) {
+						Terrasoft.ServerChannel.un(Terrasoft.EventName.ON_MESSAGE, handler, request.$context);
+					}
+					return next.handle(request);
 				}
 			},
 			{
@@ -374,6 +589,24 @@ define("TstRealEstateSection_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common
 					}
 
 					return await next?.handle(request);
+				}
+			},
+			{
+				request: "tst.AddPropertyViewingsRequest",
+				handler: async (request, next) => {
+					const handlerChain = sdk.HandlerChainService.instance;
+					
+					await handlerChain.process({
+						type: "crt.RunBusinessProcessRequest",
+						processName: "TstAddPropertyViewings",
+						$context: request.$context,
+						processParameters: {
+							TstRealEstateId: await request.$context.Id,
+							TstResponsibleId: (await request.$context.CreatedBy).value
+						},
+					})
+
+					return next.handle(request);
 				}
 			},
 			{

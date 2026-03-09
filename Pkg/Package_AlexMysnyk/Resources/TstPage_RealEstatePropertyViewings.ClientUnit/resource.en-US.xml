@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Real Estate Property viewings form page" />
+			<Item Name="LocalizableStrings.addRecord_l75exmj_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_qrv1f49_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.TabContainer_tgexdep_caption.Value" Value="New tab" />
+		</Items>
+	</Group>
+</Resources>

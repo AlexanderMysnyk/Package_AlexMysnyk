@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "3dd0dc67-1b48-4294-aa4e-62aec88e7644",
+    "Name": "TstRealEstatePropertyViewings",
+    "ModifiedOnUtc": "\/Date(1773082428000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Real Estate Property viewings",
+    "DependsOn": []
+  }
+}

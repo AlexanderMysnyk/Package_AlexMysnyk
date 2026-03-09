@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Caption" Value="Generate report" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConnectedObjectColumnUId.Caption" Value="UId of the connected object column" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConnectedObjectColumnUId.DisplayValue" Value="bec44fde-265f-e941-36c5-8d5db2c828b4" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConnectedObjectId.Caption" Value="Id of the connected object" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConnectedObjectId.DisplayValue" Value="[#Record Id#]" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.CreatedObjectFileIds.Caption" Value="Id of created files" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.CreatedObjectFileIds.Id.Caption" Value="Id" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.IsSeparateReports.Caption" Value="Generate a separate report for each record" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.IsSeparateReports.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportFiles.Caption" Value="Collection of reports" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportFiles.File.Caption" Value="File" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportId.Caption" Value="Report Id" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportId.DisplayValue" Value="c15d7663-bdb8-3d5a-82d4-8607daad50b3" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportName.Caption" Value="File name" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportNameDataSourceColumnUId.Caption" Value="Column Id from selection for file name" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ReportNameDataSourceColumnUId.DisplayValue" Value="afe95c24-cbdd-8e08-cad1-f925df965bcd" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ResultActionType.Caption" Value="Report action type" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.ResultActionType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.TargetDataEntitySchemaUId.Caption" Value="Target data object" />
+			<Item Name="BaseElements.ReportFileProcessingUserTask1.Parameters.TargetEntitySchemaUId.Caption" Value="Target object" />
+			<Item Name="Caption" Value="Generate report for real estate" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.RecordId.Caption" Value="Record Id" />
+		</Items>
+	</Group>
+</Resources>

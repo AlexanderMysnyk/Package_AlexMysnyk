@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "5dc5f28d-6625-4cba-bdd8-1c13cd806b29",
+    "Name": "TstRealEstatePropertyViewingsRelatedPage",
+    "ModifiedOnUtc": "\/Date(1773082261000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Real Estate Property viewings (Page settings)",
+    "DependsOn": []
+  }
+}

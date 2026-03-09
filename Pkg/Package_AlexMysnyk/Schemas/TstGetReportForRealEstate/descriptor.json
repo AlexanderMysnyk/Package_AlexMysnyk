@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "7edb797a-857c-4ce0-9607-cd0cf8b6f4b9",
+    "Name": "TstGetReportForRealEstate",
+    "ModifiedOnUtc": "\/Date(1773071858000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Generate report for real estate",
+    "DependsOn": []
+  }
+}

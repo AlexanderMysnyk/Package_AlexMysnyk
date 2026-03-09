@@ -1,6 +1,6 @@
-﻿namespace Package_AlexMysnyk.WebServices
+﻿namespace PackageAlexMysnyk.WebServices
 {
-    using Package_AlexMysnyk.Sevices;
+    using PackageAlexMysnyk.Sevices;
 
     using System;
     using System.ServiceModel;

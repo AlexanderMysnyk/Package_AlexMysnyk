@@ -5,6 +5,8 @@
 			<Item Name="Caption" Value="Real Estate form page" />
 			<Item Name="LocalizableStrings.addRecord_21ujed9_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_649cv39_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Button_0f48k13_caption.Value" Value="Report" />
+			<Item Name="LocalizableStrings.Button_qg2ucyw_caption.Value" Value="Add Property Viewings" />
 			<Item Name="LocalizableStrings.ValidatorNeagiveValueMessage.Value" Value="The value cannot be negative" />
 		</Items>
 	</Group>

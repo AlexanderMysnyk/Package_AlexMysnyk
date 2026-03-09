@@ -1,4 +1,4 @@
-﻿namespace Package_AlexMysnyk.Sevices
+﻿namespace PackageAlexMysnyk.Sevices
 {
     using System;
     using System.Linq;
