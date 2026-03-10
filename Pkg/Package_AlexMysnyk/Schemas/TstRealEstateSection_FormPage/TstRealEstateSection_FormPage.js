@@ -594,6 +594,19 @@ define("TstRealEstateSection_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common
 			{
 				request: "tst.AddPropertyViewingsRequest",
 				handler: async (request, next) => {
+					const cardState = await request.$context.CardState;
+
+					if (cardState === "add" || cardState === "copy") {
+						const saveResult = await request.$context.executeRequest({
+							type: "crt.SaveRecordRequest",
+							$context: request.$context
+						});
+
+						if (!saveResult) {
+							return;
+						}
+					}
+
 					const handlerChain = sdk.HandlerChainService.instance;
 					
 					await handlerChain.process({
