@@ -273,7 +273,4 @@
 		<Message Importance="High" Text="*********** StandalonePackageAssemblyPath [$([System.IO.Path]::GetFullPath('$(StandalonePackageAssemblyPath)'))]" />
 		<Message Importance="High" Text="*********** OutputPath [$([System.IO.Path]::GetFullPath('$(OutputPath)'))]" />
 	</Target>
-	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-	  <Exec Command="clio restart -e &quot;Creatio-dev&quot;" />
-	</Target>
 </Project>

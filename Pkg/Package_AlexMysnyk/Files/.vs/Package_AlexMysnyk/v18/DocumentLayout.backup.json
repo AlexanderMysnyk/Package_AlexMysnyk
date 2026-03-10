@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|g:\\work\\creatio_dev\\terrasoft.webapp\\terrasoft.configuration\\pkg\\package_alexmysnyk\\files\\files\\cs\\sevices\\propertyviewingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|solutionrelative:files\\cs\\sevices\\propertyviewingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|g:\\work\\creatio_dev\\terrasoft.webapp\\terrasoft.configuration\\pkg\\package_alexmysnyk\\files\\package_alexmysnyk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|solutionrelative:package_alexmysnyk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|g:\\work\\creatio_dev\\terrasoft.webapp\\terrasoft.configuration\\pkg\\package_alexmysnyk\\files\\files\\cs\\sevices\\propertyviewingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD579B8-E599-AECC-466D-016B4356B7C7}|Package_AlexMysnyk.csproj|solutionrelative:files\\cs\\sevices\\propertyviewingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 257,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Package_AlexMysnyk",
               "DocumentMoniker": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\Package_AlexMysnyk.csproj",
               "RelativeDocumentMoniker": "Package_AlexMysnyk.csproj",
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PropertyViewingsService.cs",
               "DocumentMoniker": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\Files\\cs\\Sevices\\PropertyViewingsService.cs",
               "RelativeDocumentMoniker": "Files\\cs\\Sevices\\PropertyViewingsService.cs",
               "ToolTip": "G:\\Work\\Creatio_dev\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\Package_AlexMysnyk\\Files\\Files\\cs\\Sevices\\PropertyViewingsService.cs",
               "RelativeToolTip": "Files\\cs\\Sevices\\PropertyViewingsService.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAA4wGQAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwF4AAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T19:25:23.794Z",
               "EditorCaption": ""
